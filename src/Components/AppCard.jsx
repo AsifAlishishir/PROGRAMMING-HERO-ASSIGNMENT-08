@@ -1,7 +1,7 @@
 const AppCard = ({ app }) => {
   //   console.log(app);
   return (
-    <div className="bg-white p-4 rounded shadow-sm flex flex-col justify-between">
+    <div className="bg-white p-4 rounded shadow-sm flex flex-col justify-between transition duration-200 ease-in-out hover:scale-[1.04] hover:shadow-lg cursor-pointer">
       <div className="aspect-square w-full relative mb-4">
         <img
           className="rounded-lg object-cover w-full h-full"

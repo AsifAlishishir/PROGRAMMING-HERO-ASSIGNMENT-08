@@ -1,11 +1,13 @@
-import { NavLink, useLoaderData } from "react-router";
+import { NavLink} from "react-router";
 import Banner from "../Components/Banner";
 import AppCard from "../Components/AppCard";
+import useApps from "../hooks/useApps";
 
 const Home = () => {
-  const apps = useLoaderData();
+  
+  const {apps, loading, error}= useApps();
   const featuredApps = apps.slice(0, 8);
-  // console.log(apps);
+  // console.log(data);
   return (
     <div>
       <Banner />
@@ -18,7 +20,7 @@ const Home = () => {
             Explore All Trending Apps on the Market developed by us
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {featuredApps.map((app) => (
             <AppCard key={app.id} app={app}></AppCard>
           ))}
