@@ -1,29 +1,35 @@
+import { NavLink, useLoaderData } from "react-router";
 import Banner from "../Components/Banner";
+import AppCard from "../Components/AppCard";
 
 const Home = () => {
+  const apps = useLoaderData();
+  const featuredApps = apps.slice(0, 8);
+  // console.log(apps);
   return (
     <div>
-      <Banner/>
-      <div className="bg-linear-to-br from-[#632EE3] to-[#9F62F2]">
-        <div className="container mx-auto text-center p-20">
-          <h1 className="text-[48px] text-white font-bold mb-10">Trusted by Millions, Built for You</h1>
-          <div className="text-white grid grid-cols-3 gap-6">
-            <div>
-              <p className="text-[#ffffffa2]">Total Downloads</p>
-              <h2 className="text-[64px] font-extrabold">29.6M</h2>
-              <p className="text-[#ffffffa2]">21% more than last month</p>
-            </div>
-            <div>
-              <p className="text-[#ffffffa2]">Total Reviews</p>
-              <h2 className="text-[64px] font-extrabold">906K</h2>
-              <p className="text-[#ffffffa2]">46% more than last month</p>
-            </div>
-            <div>
-              <p className="text-[#ffffffa2]">Active Apps</p>
-              <h2 className="text-[64px] font-extrabold">132+</h2>
-              <p className="text-[#ffffffa2]">31 more will Launch</p>
-            </div>
-          </div>
+      <Banner />
+      <div className="container mx-auto py-20">
+        <div className="text-center mb-10">
+          <h1 className="text-[48px] text-[#001931] font-bold mb-4">
+            Trending Apps
+          </h1>
+          <p className="text-[20px] text-[#627382]">
+            Explore All Trending Apps on the Market developed by us
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          {featuredApps.map((app) => (
+            <AppCard key={app.id} app={app}></AppCard>
+          ))}
+        </div>
+        <div className="flex justify-center mt-10">
+          <NavLink
+            className=" font-semibold text-white btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] border-none px-9 py-5"
+            to="/apps"
+          >
+            Show All
+          </NavLink>
         </div>
       </div>
     </div>
