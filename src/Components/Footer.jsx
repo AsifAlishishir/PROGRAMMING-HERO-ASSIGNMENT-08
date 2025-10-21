@@ -23,7 +23,7 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white p-[13px] font-semibold rounded-r-lg hover:opacity-90 transition-opacity cursor-pointer"
+              className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white p-[13px] font-semibold rounded-r-lg hover:opacity-90 transition-opacity cursor-pointer"
             >
               <FaEnvelope size={20} />
             </button>

@@ -1,0 +1,662 @@
+[
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 1,
+    "description": "TikTok has revolutionized the social media landscape with its unique focus on short-form, highly engaging video content. The platform's core strength lies in its sophisticated For You Page (FYP) algorithm, which rapidly learns user preferences to deliver an endless stream of tailored videos from creators globally, making content discovery instantaneous and personalized. This addictive format encourages creativity, allowing anyone to become a viral sensation by utilizing its vast library of sounds, filters, and editing tools. Beyond entertainment, TikTok has become a significant force in music, fashion, and commerce, often driving cultural trends that spill over into mainstream media. The app constantly pushes boundaries with new features like longer video uploads, live streaming capabilities, and a growing e-commerce integration that allows users to shop directly from video content. It functions as both a creative outlet and a massive global digital bazaar, influencing everything from political discourse to purchasing decisions for its massive young adult audience. Its global impact on digital communication and media consumption is arguably one of the most significant in the last decade.",
+    "size": 325,
+    "reviews": 78500000,
+    "ratingAvg": 4.5,
+    "downloads": 825000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 2000000
+      },
+      {
+        "name": "2 star",
+        "count": 1500000
+      },
+      {
+        "name": "3 star",
+        "count": 5000000
+      },
+      {
+        "name": "4 star",
+        "count": 15000000
+      },
+      {
+        "name": "5 star",
+        "count": 55000000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "Instagram is a premier visual storytelling platform centered around sharing photos and videos. Initially gaining popularity for its classic filters and square photo format, it has evolved significantly, incorporating features like Reels (in direct competition with TikTok's short video format), Stories (ephemeral content inspired by Snapchat), and live broadcasting. The platform is crucial for personal branding, influencer marketing, and e-commerce, allowing users to visually document their lives and businesses to connect with a global audience. Its explore page uses complex AI to curate content based on user engagement, making it a powerful tool for trend discovery. Instagram continues to focus on enhancing user interaction through direct messaging, collaborative posts, and tools for creators to monetize their content directly. The app maintains its status as a vital social utility, constantly adapting to shifting media consumption habits while remaining the benchmark for visual digital communication. The integration of its robust commerce features has positioned it as a dominant player in social shopping, blurring the lines between social networking and retail.",
+    "size": 250,
+    "reviews": 81700000,
+    "ratingAvg": 4.4,
+    "downloads": 817000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 2500000
+      },
+      {
+        "name": "2 star",
+        "count": 2000000
+      },
+      {
+        "name": "3 star",
+        "count": 6000000
+      },
+      {
+        "name": "4 star",
+        "count": 18000000
+      },
+      {
+        "name": "5 star",
+        "count": 53200000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "WhatsApp Messenger stands as the world's most popular messaging platform, offering end-to-end encrypted text, voice, and video calls across international borders at no cost. Its simplicity, reliability, and ubiquity have made it the primary communication tool for over two billion people in countless countries. Core features include secure group chats, multimedia sharing, and the popular Status feature, which allows users to post temporary updates similar to Stories. Crucially, WhatsApp provides robust features for businesses through its dedicated WhatsApp Business application, allowing companies to automate messages, create catalogs, and communicate directly with customers. The platform is constantly enhancing its security and privacy features, including message self-destruct options and fingerprint/face ID authentication for the application itself. Its minimal data usage and cross-platform compatibility make it a reliable communication backbone in both developed and emerging markets, solidifying its place as an essential daily utility for global connectivity.",
+    "size": 120,
+    "reviews": 56400000,
+    "ratingAvg": 4.3,
+    "downloads": 564000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1800000
+      },
+      {
+        "name": "2 star",
+        "count": 1200000
+      },
+      {
+        "name": "3 star",
+        "count": 4500000
+      },
+      {
+        "name": "4 star",
+        "count": 14000000
+      },
+      {
+        "name": "5 star",
+        "count": 34900000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "CapCut",
+    "companyName": "ByteDance",
+    "id": 4,
+    "description": "CapCut is a free, all-in-one video editing application that has become the de facto standard tool for creating content, especially for platforms like TikTok and Instagram Reels. Developed by ByteDance, the same company behind TikTok, its strength lies in its user-friendly interface combined with a robust set of professional-grade editing features. Users can access a massive library of trendy effects, popular music, text templates, and advanced tools like keyframe animation, slow-motion control, and chroma key (green screen). The application constantly updates its template library, making it easy for beginners to quickly produce high-quality, viral-ready videos by simply replacing content within a pre-designed structure. It supports high-resolution exports and provides seamless integration with its parent company's social media platforms. CapCut democratizes video production, allowing mobile creators to achieve results previously only possible with desktop software. Its powerful features combined with its accessibility and free nature make it an indispensable tool for the modern digital content creator.",
+    "size": 280,
+    "reviews": 41000000,
+    "ratingAvg": 4.6,
+    "downloads": 410000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000000
+      },
+      {
+        "name": "2 star",
+        "count": 800000
+      },
+      {
+        "name": "3 star",
+        "count": 3200000
+      },
+      {
+        "name": "4 star",
+        "count": 10000000
+      },
+      {
+        "name": "5 star",
+        "count": 26000000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 5,
+    "description": "Spotify is the world’s most widely used audio streaming service, offering millions of songs, albums, and podcasts. The app excels through its advanced algorithmic music discovery, creating highly accurate personalized playlists like Discover Weekly and Daily Mixes that keep users engaged with new content tailored to their tastes. It operates on a freemium model, providing free access with ads or a premium subscription for ad-free listening and offline downloads. Beyond music, Spotify has made a major investment in podcasting, becoming the dominant platform for audio consumption, hosting exclusive shows, and integrating video content. The app features a highly polished, dark-themed user interface that is intuitive and easy to navigate. Its cross-device compatibility allows seamless playback transfer between phone, desktop, car, and smart home devices. Spotify continues to define the digital music landscape by prioritizing both vast library access and personalized curation, making it the essential app for modern audio entertainment.",
+    "size": 180,
+    "reviews": 31000000,
+    "ratingAvg": 4.5,
+    "downloads": 310000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 800000
+      },
+      {
+        "name": "2 star",
+        "count": 700000
+      },
+      {
+        "name": "3 star",
+        "count": 2500000
+      },
+      {
+        "name": "4 star",
+        "count": 7500000
+      },
+      {
+        "name": "5 star",
+        "count": 19500000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Google Maps is the undisputed leader in digital mapping, navigation, and location-based services. It provides real-time GPS navigation, accurate traffic conditions, and detailed street view imagery covering virtually every corner of the globe. The app's utility extends far beyond simple turn-by-turn directions, integrating data on millions of businesses, restaurants, and points of interest, complete with user reviews, photos, and operating hours. A crucial feature is its ability to offer optimized routes across multiple transport modes, including driving, public transit, walking, and cycling. It also allows users to download maps for offline use, an essential feature for travelers. Furthermore, its local guide program leverages user contributions to ensure that business information is current and comprehensive. Google Maps has become an indispensable tool for daily life, providing critical spatial information that facilitates commerce, travel, and logistics worldwide, constantly leveraging AI to improve route prediction and local search relevance.",
+    "size": 190,
+    "reviews": 29000000,
+    "ratingAvg": 4.6,
+    "downloads": 290000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 400000
+      },
+      {
+        "name": "3 star",
+        "count": 2000000
+      },
+      {
+        "name": "4 star",
+        "count": 7000000
+      },
+      {
+        "name": "5 star",
+        "count": 19100000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 7,
+    "description": "Netflix is the world's most prominent subscription video-on-demand (SVOD) service, renowned for its vast library of movies, television shows, and critically acclaimed original programming. The mobile application offers a seamless streaming experience, featuring high-quality video playback, easy-to-use parental controls, and the crucial ability to download content for offline viewing. Its recommendation engine is highly sophisticated, using proprietary algorithms to suggest titles based on viewing history and user ratings, ensuring a highly personalized entertainment experience. The app interface is designed for effortless browsing, with personalized rows and categories that highlight trending and new releases. Netflix's aggressive investment in original content (Netflix Originals) across diverse genres and languages has been a key differentiator, driving subscriber growth globally. The mobile app is constantly optimized to manage data consumption while maintaining video quality, making it the dominant platform for on-the-go digital entertainment for millions worldwide.",
+    "size": 150,
+    "reviews": 24000000,
+    "ratingAvg": 4.4,
+    "downloads": 240000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 600000
+      },
+      {
+        "name": "2 star",
+        "count": 500000
+      },
+      {
+        "name": "3 star",
+        "count": 1800000
+      },
+      {
+        "name": "4 star",
+        "count": 5500000
+      },
+      {
+        "name": "5 star",
+        "count": 15600000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 8,
+    "description": "Snapchat pioneered ephemeral messaging and augmented reality (AR) filters, fundamentally changing how young audiences communicate. Its core features revolve around sharing Snaps—photos or short videos that disappear after viewing—and creating chains of these called Stories. The app is famous for its Lenses, dynamic AR filters that can alter faces or environments, which are constantly updated and remain a key engagement driver. Beyond social communication, Snapchat has developed its Discover section, featuring short-form entertainment from major media publishers, and Spotlight, a curated feed for viral video content that competes directly with TikTok. It also offers a personalized world map (Snap Map) to show users the real-time location and activities of their friends (with permission). Snapchat's playful, creative, and private nature has maintained its relevance, particularly in Western markets, as a fun alternative to the more publicly focused social platforms.",
+    "size": 210,
+    "reviews": 21000000,
+    "ratingAvg": 4.2,
+    "downloads": 210000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1200000
+      },
+      {
+        "name": "2 star",
+        "count": 1000000
+      },
+      {
+        "name": "3 star",
+        "count": 3000000
+      },
+      {
+        "name": "4 star",
+        "count": 5800000
+      },
+      {
+        "name": "5 star",
+        "count": 10000000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 9,
+    "description": "Telegram is a cloud-based instant messaging service distinguished by its emphasis on speed, security, and large-scale public communication. The app offers optional end-to-end encryption for its Secret Chats and uses client-server encryption for regular chats, ensuring a high level of privacy. Unlike many competitors, Telegram allows users to create massive groups and public channels (with unlimited subscribers) that function as broadcasting tools for news, communities, and businesses, making it a popular platform for mass communication and information sharing. Its support for large file sharing (up to 2 GB per file), powerful search, and customizability through an open API and bots make it highly versatile. It is fully synchronized across all user devices, allowing seamless access to messages from multiple phones, tablets, or computers simultaneously. Telegram continues to attract users seeking an alternative to mainstream messaging apps, prioritizing an open environment, powerful feature set, and strong security.",
+    "size": 140,
+    "reviews": 18000000,
+    "ratingAvg": 4.3,
+    "downloads": 180000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 700000
+      },
+      {
+        "name": "2 star",
+        "count": 600000
+      },
+      {
+        "name": "3 star",
+        "count": 1500000
+      },
+      {
+        "name": "4 star",
+        "count": 4800000
+      },
+      {
+        "name": "5 star",
+        "count": 10400000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 10,
+    "description": "Pinterest is a visual discovery engine where users find ideas and inspiration for nearly every facet of their lives, from cooking and home decor to fashion and travel. The app's core function is the ability to \"Pin\" images or videos to themed \"Boards,\" which act as digital scrapbooks or idea collections. Unlike typical social media, it's primarily a tool for self-improvement and planning, driving users toward external content (like blogs or e-commerce sites) rather than just keeping them within the platform. The platform's powerful visual search feature allows users to take a photo of an object and find similar items or style ideas on Pinterest. Its demographic tends to skew toward users actively seeking solutions, products, or creative inspiration. Pinterest is a highly valuable platform for marketers due to the high purchase intent of its users, making it a key destination for visual product discovery and mood-board creation.",
+    "size": 160,
+    "reviews": 15000000,
+    "ratingAvg": 4.4,
+    "downloads": 150000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 400000
+      },
+      {
+        "name": "3 star",
+        "count": 1100000
+      },
+      {
+        "name": "4 star",
+        "count": 4000000
+      },
+      {
+        "name": "5 star",
+        "count": 9000000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 11,
+    "description": "Discord is a VoIP, instant messaging, and digital distribution platform designed for creating community servers. Originally popular with gamers, it has vastly expanded to host communities for every imaginable interest, including study groups, creative endeavors, and business networking. The service is organized into Servers, which are collections of text and voice channels that allow members to chat, share files, and hold voice meetings simultaneously. It offers robust permissions and administrative tools, enabling creators to build complex, well-managed communities. Voice channels are a key feature, allowing drop-in, continuous voice communication superior to traditional VoIP. The platform supports bots for moderation, games, and automation. Discord’s primary value lies in its ability to facilitate real-time, interest-based social interaction in a private, customizable environment, making it a modern alternative to traditional forums and group chats. Its 'Stage' channels and streaming capabilities further enhance its utility for large-scale events and presentations.",
+    "size": 130,
+    "reviews": 12000000,
+    "ratingAvg": 4.7,
+    "downloads": 120000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300000
+      },
+      {
+        "name": "2 star",
+        "count": 200000
+      },
+      {
+        "name": "3 star",
+        "count": 800000
+      },
+      {
+        "name": "4 star",
+        "count": 3500000
+      },
+      {
+        "name": "5 star",
+        "count": 7200000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo",
+    "id": 12,
+    "description": "Duolingo is the world's most popular language learning platform, renowned for its gamified approach that makes education fun and accessible. The app teaches dozens of languages through short, interactive lessons that feel more like a mobile game than a traditional textbook. Its core loop involves earning points, leveling up, maintaining streak goals, and competing with friends, which provides powerful motivation for consistent study. Duolingo employs adaptive learning technology that adjusts lesson difficulty based on the user's performance. The curriculum focuses on practical vocabulary and grammar through repetition, translation exercises, and speaking practice. The distinct, friendly green owl mascot, Duo, is central to its brand identity, serving as a persistent (and sometimes humorously nagging) motivator. By combining free access, a vast array of courses, and psychological tricks of gamification, Duolingo has effectively democratized language education, making it an engaging daily habit for millions globally.",
+    "size": 110,
+    "reviews": 10000000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 100000
+      },
+      {
+        "name": "2 star",
+        "count": 80000
+      },
+      {
+        "name": "3 star",
+        "count": 420000
+      },
+      {
+        "name": "4 star",
+        "count": 2400000
+      },
+      {
+        "name": "5 star",
+        "count": 7000000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Shein",
+    "companyName": "SHEIN",
+    "id": 13,
+    "description": "SHEIN is a global fast-fashion e-commerce giant that leverages advanced supply chain and real-time trend data to bring thousands of new, ultra-affordable clothing items to market daily. The mobile application is the primary interface for its massive user base, offering an overwhelming selection of products, aggressive discounts, and highly personalized recommendations. Its success is rooted in its ability to rapidly prototype, produce, and distribute clothing, often in response to viral social media trends, creating an experience of continuous novelty for shoppers. The app features extensive user-generated content, including millions of customer reviews and photo submissions that help drive purchasing decisions. SHEIN’s focus on mobile-first shopping, deep discounts, and flash sales has made it exceptionally popular with young, budget-conscious consumers globally. While the focus is primarily on clothing, the app's inventory has expanded significantly into home goods, beauty, and general merchandise, positioning it as a major force in the global mobile shopping landscape.",
+    "size": 190,
+    "reviews": 8500000,
+    "ratingAvg": 4.1,
+    "downloads": 85000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 900000
+      },
+      {
+        "name": "2 star",
+        "count": 700000
+      },
+      {
+        "name": "3 star",
+        "count": 1500000
+      },
+      {
+        "name": "4 star",
+        "count": 2800000
+      },
+      {
+        "name": "5 star",
+        "count": 2600000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 14,
+    "description": "The ChatGPT mobile application brings the capabilities of the leading large language model, developed by OpenAI, directly to users' pockets. This powerful tool acts as an AI assistant capable of answering complex questions, writing code, drafting emails, summarizing long texts, generating creative content, and performing advanced data analysis. The app maintains conversation history and provides voice input capabilities, making interaction fluid and hands-free. A significant feature is its ability to serve as a versatile productivity tool, assisting students with homework, professionals with drafting reports, and developers with debugging. Its strength lies in its natural language understanding and generation, making human-computer interaction feel intuitive. The mobile app has cemented AI as an accessible daily utility, shifting from a niche technology to a mainstream resource for information and content creation, constantly improving with updates that integrate advanced reasoning and real-time knowledge features.",
+    "size": 105,
+    "reviews": 7000000,
+    "ratingAvg": 4.8,
+    "downloads": 70000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 50000
+      },
+      {
+        "name": "2 star",
+        "count": 50000
+      },
+      {
+        "name": "3 star",
+        "count": 300000
+      },
+      {
+        "name": "4 star",
+        "count": 1500000
+      },
+      {
+        "name": "5 star",
+        "count": 5100000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon",
+    "id": 15,
+    "description": "The Amazon Shopping app provides mobile users with access to the world's largest online retailer, featuring millions of products across every major category. The app is highly optimized for a seamless mobile experience, offering personalized recommendations, one-click ordering with Prime, and real-time tracking of shipments. Key mobile features include Visual Search (allowing users to find products by snapping a photo), voice search integration (via Alexa), and easy access to digital content. It serves as a comprehensive portal not just for physical goods but also for managing digital subscriptions, streaming services, and smart home devices connected through the Amazon ecosystem. The app's commitment to competitive pricing, vast selection, and reliable logistics, particularly its fast shipping options for Prime members, makes it the dominant app for general-purpose mobile e-commerce globally. Its constantly updated deals and curated storefronts keep users returning for daily browsing and purchasing needs.",
+    "size": 175,
+    "reviews": 6500000,
+    "ratingAvg": 4.3,
+    "downloads": 65000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 400000
+      },
+      {
+        "name": "2 star",
+        "count": 300000
+      },
+      {
+        "name": "3 star",
+        "count": 1000000
+      },
+      {
+        "name": "4 star",
+        "count": 1800000
+      },
+      {
+        "name": "5 star",
+        "count": 3000000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 16,
+    "description": "YouTube is the world's largest video sharing and streaming platform, offering billions of videos across every genre, from music and entertainment to educational content and news. The mobile app is highly optimized for video consumption, featuring adaptive streaming quality, background playback (for Premium users), and robust content discovery tools. The app's strength lies in its enormous library and powerful recommendation system, which keeps users engaged with a mix of established channels and new creators. YouTube Shorts, its short-form video product, directly competes with platforms like TikTok, expanding its reach into mobile-first, vertical video. The platform provides extensive features for creators, including monetization tools, live streaming, and community posts. YouTube remains the indispensable global hub for video content, serving as a primary source for both passive entertainment and active learning, with its mobile application being the dominant access point for its vast global audience.",
+    "size": 260,
+    "reviews": 5000000,
+    "ratingAvg": 4.4,
+    "downloads": 50000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300000
+      },
+      {
+        "name": "2 star",
+        "count": 200000
+      },
+      {
+        "name": "3 star",
+        "count": 700000
+      },
+      {
+        "name": "4 star",
+        "count": 1300000
+      },
+      {
+        "name": "5 star",
+        "count": 2500000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Reddit",
+    "companyName": "Reddit, Inc.",
+    "id": 17,
+    "description": "Reddit bills itself as the \"front page of the internet,\" a vast collection of thousands of niche communities, or Subreddits, organized around virtually every topic imaginable. The official mobile app provides a dedicated, streamlined experience for browsing, posting, and interacting with these communities. Unlike other social media, Reddit focuses on content aggregation and community discussion rather than individual profiles. The upvote/downvote system determines content visibility, ensuring that the most relevant and engaging posts rise to the top of each Subreddit. Users can engage in deep, specialized discussions, follow breaking news, and participate in Q&A sessions (AMAs). The app is highly valued for its raw, unfiltered content and the sense of genuine community fostered within its various groups. It serves as a decentralized news aggregator and a global forum for specialized knowledge, making it a unique and powerful digital space.",
+    "size": 155,
+    "reviews": 4500000,
+    "ratingAvg": 4.2,
+    "downloads": 45000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 400000
+      },
+      {
+        "name": "2 star",
+        "count": 300000
+      },
+      {
+        "name": "3 star",
+        "count": 800000
+      },
+      {
+        "name": "4 star",
+        "count": 1200000
+      },
+      {
+        "name": "5 star",
+        "count": 1800000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 18,
+    "description": "Microsoft Teams is a comprehensive collaboration and communication platform designed primarily for the modern workplace and education sectors. It seamlessly integrates instant messaging, video conferencing, file storage, and application integration into a unified interface. The mobile app allows users to participate in large video meetings, join group chats (Teams), and access and share files stored in SharePoint or OneDrive while on the go. Its key advantage is its deep integration with the entire Microsoft 365 ecosystem, allowing users to co-author Word, Excel, and PowerPoint documents directly within the app. Teams supports large-scale meetings, webinars, and live events, making it indispensable for remote and hybrid work models. The app ensures productivity remains high regardless of location, serving as the digital hub for professional and academic organizational communication.",
+    "size": 185,
+    "reviews": 4000000,
+    "ratingAvg": 4.4,
+    "downloads": 40000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 200000
+      },
+      {
+        "name": "2 star",
+        "count": 150000
+      },
+      {
+        "name": "3 star",
+        "count": 550000
+      },
+      {
+        "name": "4 star",
+        "count": 1100000
+      },
+      {
+        "name": "5 star",
+        "count": 2000000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 19,
+    "description": "Uber is the world's leading ride-hailing and mobility service, allowing users to book private cars and taxis directly from their smartphone. The app revolutionized urban transportation by providing a seamless, on-demand service that connects riders with drivers using GPS technology. Users can see real-time pricing, track their driver's location on the map, and process secure, cashless payments. Beyond standard rides, Uber has expanded to offer luxury vehicles, shared rides, and scooter/bike rentals. Its commitment to safety is evident through features like driver background checks, GPS tracking of all rides, and an in-app emergency button. In many cities, the app also integrates Uber Eats, allowing users to switch between booking a ride and ordering food delivery. Uber remains an essential, globally recognized service that has fundamentally changed personal travel and logistical services in major metropolitan areas.",
+    "size": 145,
+    "reviews": 3800000,
+    "ratingAvg": 4.3,
+    "downloads": 38000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300000
+      },
+      {
+        "name": "2 star",
+        "count": 250000
+      },
+      {
+        "name": "3 star",
+        "count": 650000
+      },
+      {
+        "name": "4 star",
+        "count": 1000000
+      },
+      {
+        "name": "5 star",
+        "count": 1600000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/L9H3K2k/app-placeholder.png",
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "id": 20,
+    "description": "Airbnb is a global platform that connects travelers with unique accommodations and local experiences offered by hosts worldwide. The mobile application allows users to search, book, and manage stays ranging from single rooms and apartments to entire homes, offering a more localized and personal alternative to traditional hotels. Key features include highly detailed listings with photos and reviews, secure in-app messaging between guests and hosts, and flexible booking and cancellation policies. The app also heavily promotes Airbnb Experiences, curated activities led by local experts, such as cooking classes or guided tours. The user interface is designed for discovery, featuring visually rich content and categories that inspire travel planning. Airbnb's model fosters a community-driven travel economy, providing a diverse array of lodging options and authentic local insights that appeal to modern, independent travelers looking for something beyond the typical hotel chain.",
+    "size": 165,
+    "reviews": 3500000,
+    "ratingAvg": 4.6,
+    "downloads": 35000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 100000
+      },
+      {
+        "name": "2 star",
+        "count": 100000
+      },
+      {
+        "name": "3 star",
+        "count": 400000
+      },
+      {
+        "name": "4 star",
+        "count": 1000000
+      },
+      {
+        "name": "5 star",
+        "count": 1900000
+      }
+    ]
+  }
+]

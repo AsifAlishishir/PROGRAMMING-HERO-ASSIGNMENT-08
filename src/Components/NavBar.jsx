@@ -15,7 +15,7 @@ const NavBar = () => {
     <div className=" py-5 bg-white border-b border-[#E9E9E9]">
       <div className="flex justify-between items-center  container mx-auto">
         <div className="flex items-center">
-          <img width={40} src="/public/assets/logo.png" alt="Logo" />
+          <img width={40} src="/assets/logo.png" alt="Logo" />
           <NavLink to='/home' className=" text-[24px] font-bold bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent ml-3">
             HERO.IO
           </NavLink>
