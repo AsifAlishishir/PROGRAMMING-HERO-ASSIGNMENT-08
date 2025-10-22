@@ -1,11 +1,16 @@
 import { useParams } from "react-router";
 import useApps from "../hooks/useApps";
+import ChartData from "../Components/ChartData";
+import AppNotFound from "./AppNotFound";
+import { useState } from "react";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading } = useApps();
   const app = apps.find((p) => p.id === Number(id));
 
+  const [isInstalled, setIsInstalled] = useState(false);
   if (loading) return <p>Loading......</p>;
 
   const {
@@ -17,13 +22,28 @@ const AppDetails = () => {
     description,
     size,
     reviews,
+    ratings,
   } = app || {};
+
+  //   ekhane app na dekhanor page add korte hobe
+  if (!app) return <AppNotFound />;
+
+  const handleInstallClick = () => {
+    setIsInstalled(true);
+
+    toast(`${title} Installed Successfully!!`)
+
+  };
   //   console.log(app);
   return (
     <div className="container mx-auto">
       <div className="flex  gap-10 pt-20 pb-10 border-b text-[#0019313a]">
         <div className="w-1/4  ">
-          <img className="object-cover h-full w-full shadow-md" src={image} alt={title} />
+          <img
+            className="object-cover h-full w-full shadow-md"
+            src={image}
+            alt={title}
+          />
         </div>
         <div className="flex-1">
           <div className="border-b text-[#0019313a] ">
@@ -37,7 +57,7 @@ const AppDetails = () => {
               </span>
             </p>
           </div>
-          
+
           <div className="flex  gap-22 my-[30px]">
             <div className="grid gap-2">
               <img src="/public/assets/icon-downloads.png" alt="" />
@@ -61,14 +81,33 @@ const AppDetails = () => {
               </p>
             </div>
           </div>
-          <button className="bg-[#00D390] rounded text-[20px] text-white font-semibold px-5 py-3.5">
-            Install Now ({size} MB)
+          <button
+            className={`rounded text-[20px] text-white font-semibold px-5 py-3.5 ${
+              isInstalled
+                ? "bg-[#00d3907a] "
+                : "bg-[#00D390] hover:bg-[#00b47a] cursor-pointer"
+            }`}
+            onClick={handleInstallClick}
+            disabled={isInstalled}
+          >
+            {isInstalled ? "Installed" : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>
-      <div className="pt-10">
-        <h1 className="text-[24px] text-[#text-[#001931] font-semibold pb-6">Description</h1>
-        <p className="text-[20px] text-[#627382] text-left leading-9">{description}</p>
+
+      <div className="pt-10 border-b text-[#0019313a]">
+        <h1 className="text-[24px] text-[#001931] font-semibold pb-6">
+          Ratings
+        </h1>
+        <ChartData key={id} ratings={ratings}></ChartData>
+      </div>
+      <div className="pt-10 ">
+        <h1 className="text-[24px] text-[#001931] font-semibold pb-6">
+          Description
+        </h1>
+        <p className="text-[20px] text-[#627382] text-left leading-9 pb-20">
+          {description}
+        </p>
       </div>
     </div>
   );

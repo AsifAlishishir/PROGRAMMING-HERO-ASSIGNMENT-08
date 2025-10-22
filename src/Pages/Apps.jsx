@@ -9,6 +9,9 @@ const Apps = () => {
   const searchedApps = term
     ? apps.filter((app) => app.title.toLowerCase().includes(term))
     : apps;
+
+  const noResults = searchedApps.length === 0 && term !== "";
+
   return (
     <div>
       <div className="container mx-auto py-20">
@@ -50,11 +53,20 @@ const Apps = () => {
             />
           </label>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {searchedApps.map((app) => (
-            <AppCard key={app.id} app={app}></AppCard>
-          ))}
-        </div>
+
+        {noResults ? (
+          <div className="flex flex-col items-center my-20">
+            <h1 className="text-[64px] font-bold bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent mb-14">
+              No App Found
+            </h1>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {searchedApps.map((app) => (
+              <AppCard key={app.id} app={app}></AppCard>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
