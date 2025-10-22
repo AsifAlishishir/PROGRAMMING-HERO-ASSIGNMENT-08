@@ -36,21 +36,21 @@ const AppDetails = () => {
   };
   //   console.log(app);
   return (
-    <div className="container mx-auto">
-      <div className="flex  gap-10 pt-20 pb-10 border-b text-[#0019313a]">
-        <div className="w-1/4  ">
+    <div className="container mx-auto px-4 md:px-6 lg:px-8">
+      <div className="flex flex-col lg:flex-row  gap-10 pt-20 pb-10 border-b text-[#0019313a]">
+        <div className=" lg:w-[30%]">
           <img
-            className="object-cover h-full w-full shadow-md"
+            className=" object-cover h-full w-full shadow-md rounded-lg lg:rounded-none"
             src={image}
             alt={title}
           />
         </div>
         <div className="flex-1">
           <div className="border-b text-[#0019313a] ">
-            <h1 className="text-[32px] text-[#001931] font-bold mb-2">
+            <h1 className="text-[23px] md:text-[32px] text-[#001931] font-bold mb-2">
               {title}
             </h1>
-            <p className="text-[20px] text-[#627382] mb-[30px]">
+            <p className="text-[16px] md:text-[20px] text-[#627382] mb-[30px]">
               Developed by{" "}
               <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold">
                 {companyName}
@@ -58,31 +58,31 @@ const AppDetails = () => {
             </p>
           </div>
 
-          <div className="flex  gap-22 my-[30px]">
+          <div className="flex gap-7 md:gap-22 my-[30px]">
             <div className="grid gap-2">
               <img src="/assets/icon-downloads.png" alt="" />
               <p className="text-[#001931]">Downloads</p>
-              <p className="text-[40px] text-[#001931] font-extrabold">
+              <p className="text-[20px] md:text-[40px] text-[#001931] font-extrabold">
                 {downloads}
               </p>
             </div>
             <div className="grid gap-2">
               <img src="/assets/icon-ratings.png" alt="" />
               <p className="text-[#001931]">Average Ratings</p>
-              <p className="text-[40px] text-[#001931] font-extrabold">
+              <p className="text-[20px] md:text-[40px] text-[#001931] font-extrabold">
                 {ratingAvg}
               </p>
             </div>
             <div className="grid gap-2">
               <img src="/assets/icon-review.png" alt="" />
               <p className="text-[#001931]">Total Reviews</p>
-              <p className="text-[40px] text-[#001931] font-extrabold">
+              <p className="text-[20px] md:text-[40px] text-[#001931] font-extrabold">
                 {reviews}
               </p>
             </div>
           </div>
           <button
-            className={`rounded text-[20px] text-white font-semibold px-5 py-3.5 ${
+            className={`rounded md:text-[20px] text-white font-semibold px-3 md:px-5 py-3 md:py-3.5 ${
               isInstalled
                 ? "bg-[#00d3907a] "
                 : "bg-[#00D390] hover:bg-[#00b47a] cursor-pointer"
@@ -105,7 +105,7 @@ const AppDetails = () => {
         <h1 className="text-[24px] text-[#001931] font-semibold pb-6">
           Description
         </h1>
-        <p className="text-[20px] text-[#627382] text-left leading-9 pb-20">
+        <p className="md:text-[20px] text-[#627382] text-left leading-9 pb-20">
           {description}
         </p>
       </div>

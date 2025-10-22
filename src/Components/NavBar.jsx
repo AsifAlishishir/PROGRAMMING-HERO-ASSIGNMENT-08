@@ -12,7 +12,7 @@ const NavBar = () => {
   };
   return (
     <div className=" py-5 bg-white border-b border-[#E9E9E9]">
-      <div className="flex justify-between items-center  container mx-auto px-4 md:px-6 lg:px-8">
+      <div className=" flex flex-col md:flex md:flex-row justify-between items-center gap-7 md:gap-0 container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex items-center">
           <img className="w-6 md:w-10" src="/assets/logo.png" alt="Logo" />
           <NavLink
@@ -22,7 +22,7 @@ const NavBar = () => {
             HERO.IO
           </NavLink>
         </div>
-        <div className=" hidden md:flex items-center gap-x-8 font-medium text-[#000000]">
+        <div className=" flex items-center gap-x-8 font-medium text-[#000000]">
           <NavLink to="/" className={getNavLinkClass}>
             Home
           </NavLink>
