@@ -1,9 +1,10 @@
 import useApps from "../hooks/useApps";
 import AppCard from "../Components/AppCard";
 import { useState } from "react";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 const Apps = () => {
-  const { apps } = useApps();
+  const { apps, loading } = useApps();
   const [search, setSearch] = useState("");
   const term = search.trim().toLowerCase();
   const searchedApps = term
@@ -54,7 +55,11 @@ const Apps = () => {
           </label>
         </div>
 
-        {noResults ? (
+        {loading ? (
+          
+
+          <LoadingSpinner />
+        ) : noResults ? (
           <div className="flex flex-col items-center my-20">
             <h1 className="text-[64px] font-bold bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent mb-14">
               No App Found

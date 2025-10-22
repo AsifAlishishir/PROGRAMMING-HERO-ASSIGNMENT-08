@@ -4,6 +4,7 @@ import ChartData from "../Components/ChartData";
 import AppNotFound from "./AppNotFound";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -11,7 +12,7 @@ const AppDetails = () => {
   const app = apps.find((p) => p.id === Number(id));
 
   const [isInstalled, setIsInstalled] = useState(false);
-  if (loading) return <p>Loading......</p>;
+  if (loading) return <LoadingSpinner />;
 
   const {
     title,
@@ -31,8 +32,7 @@ const AppDetails = () => {
   const handleInstallClick = () => {
     setIsInstalled(true);
 
-    toast(`${title} Installed Successfully!!`)
-
+    toast(`${title} Installed Successfully!!`);
   };
   //   console.log(app);
   return (
