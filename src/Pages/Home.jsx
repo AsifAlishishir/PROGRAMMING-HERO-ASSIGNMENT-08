@@ -11,12 +11,12 @@ const Home = () => {
   return (
     <div>
       <Banner />
-      <div className="container mx-auto py-20">
+      <div className="container mx-auto py-20 px-4 md:px-6 lg:px-8">
         <div className="text-center mb-10">
-          <h1 className="text-[48px] text-[#001931] font-bold mb-4">
+          <h1 className="text-[28px] md:text-[38px] lg:text-[48px] text-[#001931] font-bold mb-4">
             Trending Apps
           </h1>
-          <p className="text-[20px] text-[#627382]">
+          <p className="text-[16px] md:text-[20px] text-[#627382]">
             Explore All Trending Apps on the Market developed by us
           </p>
         </div>

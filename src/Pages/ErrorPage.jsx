@@ -10,7 +10,7 @@ const ErrorPage = () => {
       <div className="flex flex-col justify-center items-center gap-4 py-20">
         <img
           className="max-w-[420px] mb-5 mt-20"
-          src="/public/assets/error-404.png"
+          src="/assets/error-404.png"
           alt=""
         />
         <h1 className="text-[48px] text-[#001931] font-semibold">

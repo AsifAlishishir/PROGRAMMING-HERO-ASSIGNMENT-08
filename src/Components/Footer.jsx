@@ -6,8 +6,8 @@ const Footer = () => {
     "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent";
 
   return (
-    <footer className="bg-gray-900 text-gray-400">
-      <div className="container mx-auto py-12 grid grid-cols-2 md:grid-cols-5 gap-8 border-b border-gray-700">
+    <footer className="bg-gray-900 text-gray-400 ">
+      <div className="container mx-auto py-12 grid grid-cols-2 md:grid-cols-5 gap-8 border-b border-gray-700 px-4 md:px-6 lg:px-8">
         <div className="col-span-2 md:col-span-2 space-y-4">
           <h1 className={`text-3xl font-extrabold ${gradientText}`}>HERO.IO</h1>
           <p className="text-sm max-w-sm">
@@ -82,7 +82,7 @@ const Footer = () => {
         </nav>
       </div>
 
-      <div className="container mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center text-sm">
+      <div className="container mx-auto py-6 flex flex-col md:flex-row justify-between items-center text-sm px-4 md:px-6 lg:px-8">
         <aside className="mb-4 md:mb-0 text-center md:text-left">
           &copy; {new Date().getFullYear()} HERO.IO. All rights reserved.
         </aside>

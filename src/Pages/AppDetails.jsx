@@ -60,21 +60,21 @@ const AppDetails = () => {
 
           <div className="flex  gap-22 my-[30px]">
             <div className="grid gap-2">
-              <img src="/public/assets/icon-downloads.png" alt="" />
+              <img src="/assets/icon-downloads.png" alt="" />
               <p className="text-[#001931]">Downloads</p>
               <p className="text-[40px] text-[#001931] font-extrabold">
                 {downloads}
               </p>
             </div>
             <div className="grid gap-2">
-              <img src="/public/assets/icon-ratings.png" alt="" />
+              <img src="/assets/icon-ratings.png" alt="" />
               <p className="text-[#001931]">Average Ratings</p>
               <p className="text-[40px] text-[#001931] font-extrabold">
                 {ratingAvg}
               </p>
             </div>
             <div className="grid gap-2">
-              <img src="/public/assets/icon-review.png" alt="" />
+              <img src="/assets/icon-review.png" alt="" />
               <p className="text-[#001931]">Total Reviews</p>
               <p className="text-[40px] text-[#001931] font-extrabold">
                 {reviews}
