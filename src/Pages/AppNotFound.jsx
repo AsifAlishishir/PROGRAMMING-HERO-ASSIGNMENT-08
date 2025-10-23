@@ -1,3 +1,5 @@
+import { NavLink } from "react-router";
+
 const AppNotFound = () => {
   return (
     <div className="flex flex-col justify-center items-center text-center gap-4 py-20 px-4 md:px-6 lg:px-8">
@@ -13,9 +15,12 @@ const AppNotFound = () => {
         The App you are requesting is not found on our system. please try
         another apps.
       </p>
-      <button className=" font-semibold text-white btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] border-none px-9 py-5">
+      <NavLink
+        to="/"
+        className=" font-semibold text-white btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] border-none px-9 py-5"
+      >
         Go Back
-      </button>
+      </NavLink>
     </div>
   );
 };

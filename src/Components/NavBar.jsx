@@ -40,13 +40,13 @@ const NavBar = () => {
               tabIndex="-1"
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 w-40 mt-2 p-2 shadow font-medium text-[#000000]"
             >
-              <NavLink to="/" className="pb-1.5">
+              <NavLink to="/" className="pb-1.5 hover:bg-gray-200">
                 Home
               </NavLink>
-              <NavLink to="/apps" className="pb-1.5">
+              <NavLink to="/apps" className="pb-1.5 hover:bg-gray-200">
                 Apps
               </NavLink>
-              <NavLink to="/installation" className="pb-1.5">
+              <NavLink to="/installation" className="pb-1.5 hover:bg-gray-200">
                 Installation
               </NavLink>
             </ul>
